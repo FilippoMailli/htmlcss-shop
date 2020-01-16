@@ -50,19 +50,9 @@
     background-image: url("../img/ipad.png");
     background-repeat: round;
     background-size: cover;
-    margin: 50px 0 0 50px;
+    margin: 50px 0 50px 50px;
     z-index: 1;
-}
-
-.image2 {
-    width: 200px;
-    height: 300px;
-    text-align: center;
-    background-image: url("../img/iphone.png");
-    background-repeat: round;
-    background-size: cover;
-    margin: 50px 0 0 50px;
-    z-index: 1;
+    cursor: pointer;
 }
 
 .image2 {
@@ -72,8 +62,9 @@
     background-image: url("../img/iphone.png");
     background-repeat: round;
     background-size: cover;
-    margin: 0 0 0 50px;
+    margin: 0 0 50px 50px;
     z-index: 1;
+    cursor:pointer;
 }
 
 .image3 {
@@ -83,8 +74,9 @@
     background-image: url("../img/beats.jpg");
     background-repeat: round;
     background-size: cover;
-    margin: 50px 0 0 50px;
+    margin: 50px 0 50px 50px;
     z-index: 1;
+    cursor: pointer;
 }
 
 .sconto-verde {
@@ -103,4 +95,13 @@
     right: 0;
     top: 0;
     background-color: red;
+}
+
+span{
+    cursor: pointer;
+    font-size: 20pt;
+    position: absolute;
+    color: black;
+    bottom: 0;
+    text-align: center;
 }
