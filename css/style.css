@@ -18,6 +18,7 @@
 .prodotto img {
     width: 250px;
     height: 300px;
+    border-bottom: 25px solid lightgrey;
     object-fit: contain;
     background-color: lightgrey;
 }
@@ -39,7 +40,7 @@
 .heart {
     font-size: 30px;
     position: absolute;
-    bottom: 0;
+    bottom: 5px;
     left: 0;
     width: 100%;
     display: none;
@@ -48,4 +49,8 @@
 .prodotto:hover .heart {
     cursor: pointer;
     display: block;
+}
+
+.heart:active {
+    color: red;
 }
