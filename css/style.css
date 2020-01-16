@@ -16,7 +16,7 @@
     position: relative;
 }
 
-.primo {
+.primo{
     width: 330px;
     height: 395px;
     background-color: #F5F5F5;
@@ -41,4 +41,66 @@
     background-color: #F5F5F5;
     position: absolute;
     right: 15px;
+}
+
+.image1 {
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    background-image: url("../img/ipad.png");
+    background-repeat: round;
+    background-size: cover;
+    margin: 50px 0 0 50px;
+    z-index: 1;
+}
+
+.image2 {
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    background-image: url("../img/iphone.png");
+    background-repeat: round;
+    background-size: cover;
+    margin: 50px 0 0 50px;
+    z-index: 1;
+}
+
+.image2 {
+    width: 250px;
+    height: 350px;
+    text-align: center;
+    background-image: url("../img/iphone.png");
+    background-repeat: round;
+    background-size: cover;
+    margin: 0 0 0 50px;
+    z-index: 1;
+}
+
+.image3 {
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    background-image: url("../img/beats.jpg");
+    background-repeat: round;
+    background-size: cover;
+    margin: 50px 0 0 50px;
+    z-index: 1;
+}
+
+.sconto-verde {
+    width: 35px;
+    height: 15px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: green;
+}
+
+.sconto-rosso {
+    width: 30px;
+    height: 15px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: red;
 }
