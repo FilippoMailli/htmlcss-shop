@@ -1,107 +1,51 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-.base {
-    width: 1000px;
-    height: 800px;
-    background-color: white;
-    border: 3px solid black;
-    margin: auto;
+.container {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
 }
 
-.riga {
-    width: 1000px;
-    height: 395px;
+.prodotto {
     position: relative;
+    display: inline-block;
 }
 
-.primo{
-    width: 330px;
-    height: 395px;
-    background-color: #F5F5F5;
-    border: 5px solid white;
-    position: absolute;
-    left: 5px;
-}
-
-.secondo {
-    width: 330px;
-    height: 395px;
-    border: 5px solid white;
-    background-color: #F5F5F5;
-    position: absolute;
-    left: 330px;
-}
-
-.terzo {
-    width: 330px;
-    height: 395px;
-    border: 5px solid white;
-    background-color: #F5F5F5;
-    position: absolute;
-    right: 15px;
-}
-
-.image1 {
-    width: 200px;
-    height: 300px;
-    text-align: center;
-    background-image: url("../img/ipad.png");
-    background-repeat: round;
-    background-size: cover;
-    margin: 50px 0 50px 50px;
-    z-index: 1;
-    cursor: pointer;
-}
-
-.image2 {
+.prodotto img {
     width: 250px;
-    height: 350px;
-    text-align: center;
-    background-image: url("../img/iphone.png");
-    background-repeat: round;
-    background-size: cover;
-    margin: 0 0 50px 50px;
-    z-index: 1;
-    cursor:pointer;
-}
-
-.image3 {
-    width: 200px;
     height: 300px;
-    text-align: center;
-    background-image: url("../img/beats.jpg");
-    background-repeat: round;
-    background-size: cover;
-    margin: 50px 0 50px 50px;
-    z-index: 1;
-    cursor: pointer;
+    object-fit: contain;
+    background-color: lightgrey;
 }
 
-.sconto-verde {
-    width: 35px;
-    height: 15px;
+.sconto {
     position: absolute;
-    right: 0;
     top: 0;
+    right: 0;
+}
+
+#s30 {
     background-color: green;
 }
 
-.sconto-rosso {
-    width: 30px;
-    height: 15px;
-    position: absolute;
-    right: 0;
-    top: 0;
+#s5 {
     background-color: red;
 }
 
-span{
-    cursor: pointer;
-    font-size: 20pt;
+.heart {
+    font-size: 30px;
     position: absolute;
-    color: black;
     bottom: 0;
-    text-align: center;
+    left: 0;
+    width: 100%;
+    display: none;
+}
+
+.prodotto:hover .heart {
+    cursor: pointer;
+    display: block;
 }
